@@ -4,12 +4,14 @@ import { NgModule } from '@angular/core';
 
 import { AppComponent } from './app.component';
 import { Exercice1Component } from './exercice-1/exercice-1.component';
+import { ArrowBgColorDirective } from './shared/directives/arrow-bg-color.directive';
 
 
 @NgModule({
   declarations: [
     AppComponent,
     Exercice1Component,
+    ArrowBgColorDirective,
   ],
   imports: [
     BrowserModule
